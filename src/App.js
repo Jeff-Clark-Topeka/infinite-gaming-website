@@ -1,24 +1,28 @@
-import logo from './logo.svg';
+import headerImage from './ing-react-header.jpeg';
+import testImage from './test.jpg'
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ChainOfCommand from './ChainOfCommand';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/*<img class="header-img" src={headerImage} alt=""/>*/}
+        <img class="header-img" src={testImage} alt=""/>
+        <Navbar/>
+        <div>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/code-of-conduct"/>
+            <Route path="/how-tos"/> 
+            <Route path="/ranks" element={<ChainOfCommand/>}/>
+          </Routes>
+        </div>
+      </div>
+    </Router>
   );
 }
 
