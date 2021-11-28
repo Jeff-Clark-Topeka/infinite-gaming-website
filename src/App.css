@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+html {
+  background-color: black;
+  color: white;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -69,10 +74,18 @@
   text-decoration: underline;
 }
 
+.membership-link {
+  color: blue;
+}
+
+.membership-link:hover {
+  opacity: 50%;
+}
+
 .one {
   grid-column: 1;
   grid-row: 1;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 .one a {
@@ -84,7 +97,7 @@
 .two {
   grid-column: 2/ 2;
   grid-row: 1;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 .two p {
@@ -96,25 +109,25 @@
 .three {
   grid-column: 3;
   grid-row: 1;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 .four {
   grid-column: 1;
   grid-row: 2;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 .five {
   grid-column: 2/ 2;
   grid-row: 2;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 .six {
   grid-column: 3;
   grid-row: 2;
-  border: 5px solid white;
+  border: 5px solid 	#404040;
 }
 
 /*Chain of Command Styles*/
