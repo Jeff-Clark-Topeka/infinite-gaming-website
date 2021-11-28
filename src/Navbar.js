@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
     return (
-        <div>
+        <div class="nav-cont">
             <nav class="main-nav">
                 <a class="logo" href="/"><h1>Infinite Gaming</h1></a>
                 <ul class="nav-links">
