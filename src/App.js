@@ -5,13 +5,18 @@ import Navbar from './Navbar';
 import Home from './Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ChainOfCommand from './ChainOfCommand';
+import MenuLogo from './menu.jpg'
 
 function App() {
   return (
     <Router>
       <div className="App">
         {/*<img class="header-img" src={headerImage} alt=""/>*/}
-        <img class="header-img" src={testImage} alt=""/>
+        {/*<img class="header-img" src={testImage} alt=""/>*/}
+        <div class="header-mobile">
+          <h1>Infinite Gaming</h1>
+          <img src={MenuLogo} alt="menu-logo"></img>
+        </div>
         <Navbar/>
         <div>
           <Routes>
