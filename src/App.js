@@ -14,8 +14,8 @@ function App() {
         {/*<img class="header-img" src={headerImage} alt=""/>*/}
         {/*<img class="header-img" src={testImage} alt=""/>*/}
         <div class="header-mobile">
-          <h1>Infinite Gaming</h1>
-          <img src={MenuLogo} alt="menu-logo"></img>
+          <h1 class="logo">Infinite Gaming</h1>
+          <img class="menu-logo" src={MenuLogo} alt="menu-logo"></img>
         </div>
         <Navbar/>
         <div>
