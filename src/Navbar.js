@@ -24,7 +24,6 @@ function Navbar() {
                     <li><a href="App.js">Sign Up</a></li>
                 </ul>*/}
             </nav>
-            <hr></hr>
         </div>
     );
 }
