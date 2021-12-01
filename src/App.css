@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /*text-align: center;*/
 }
 
 html {
@@ -11,7 +11,12 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0px 18px;
+  background-color: #252525;
+  padding: 0px 20px;
+}
+
+.logo {
+  font-size: 30px;
 }
 
 .menu-logo {
@@ -27,6 +32,8 @@ html {
 .main-nav {
   display: flex;
   justify-content: flex-end;
+  border-bottom: 1px solid white;
+  background-color: #252525;
 }
 
 .main-nav ul {
@@ -34,7 +41,7 @@ html {
 }
 
 .main-nav li {
-  margin: 12px 21px; 
+  margin: 0px 21px; 
   list-style: none;
 }
 
@@ -54,16 +61,15 @@ html {
 .home-container {
   display: flex;
   flex-direction: column;
-  margin: 30px 15px;
-  gap: 15px;
+  margin: 15px 0px;
+  gap: 13px;
 }
 
 .home-container div{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 0px 30px;
+  padding: 0px 18px;
 }
 
 .home-container h2 {
@@ -81,49 +87,59 @@ html {
 .one {
   /*grid-column: 1;
   grid-row: 1;*/
-  border: 5px solid 	#404040;
+  border: 3px solid 	#404040;
 }
 
 .one a {
   text-decoration: none;
   font-weight: bold;
-  font-size: 20px; 
+  font-size: 20px;
+  padding-bottom: 20px; 
 }
 
 .two {
   /*grid-column: 2/ 2;
   grid-row: 1;*/
-  border: 5px solid 	#404040;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  background-color: #252525;
 }
 
 .two p {
   font-weight: bold;
-  font-size: 18px;
-  width: 60%;
+  font-size: 16px;
 }
 
 .three {
   /*grid-column: 3;
   grid-row: 1;*/
-  border: 5px solid 	#404040;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  background-color: #252525;
 }
 
 .four {
   /*grid-column: 1;
   grid-row: 2;*/
-  border: 5px solid 	#404040;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  background-color: #252525;
 }
 
 .five {
   /*grid-column: 2/ 2;
   grid-row: 2;*/
-  border: 5px solid 	#404040;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  background-color: #252525;
 }
 
 .six {
   /*grid-column: 3;
   grid-row: 2;*/
-  border: 5px solid 	#404040;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+  background-color: #252525;
 }
 
 /*Chain of Command Styles*/

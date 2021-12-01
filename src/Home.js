@@ -3,10 +3,10 @@ import React from 'react';
 function Home () {
     return (
         <div class="home-container">
-            <div class="one">
+            {/*<div class="one">
                 <h2>Membership</h2>
                 <a class="membership-link" href="#">Apply to Clan</a>
-            </div>
+            </div>*/}
 
             <div class="two">
                 <h2>About Infinite Gaming</h2>
