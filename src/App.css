@@ -32,8 +32,7 @@ html {
 .main-nav {
   display: flex;
   justify-content: flex-end;
-  border-bottom: 1px solid white;
-  background-color: #252525;
+  background-color: black;
 }
 
 .main-nav ul {
@@ -61,7 +60,7 @@ html {
 .home-container {
   display: flex;
   flex-direction: column;
-  margin: 15px 0px;
+  margin: 0px 0px;
   gap: 13px;
 }
 
