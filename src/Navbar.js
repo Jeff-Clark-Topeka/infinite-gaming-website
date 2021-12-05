@@ -12,8 +12,8 @@ function Navbar() {
             <nav class="main-nav">
                 {/*<a class="logo" href="/"><h1>Infinite Gaming</h1></a>*/}
                 <ul class="nav-links">
-                    <li><a href="/"><img src ={HomeLogo} alt="home-logo"/></a></li>
-                    <li><a href="App.js"><img src ={InfoLogo} alt="info-logo"/></a></li>
+                    <li><a href="/"><img src={HomeLogo} alt="home-logo"/></a></li>
+                    <li><a href="/info"><img src={InfoLogo} alt="info-logo"/></a></li>
                     <li><a href="/ranks"><img src={RanksLogo} alt="ranks-logo"/></a></li>
                     <li><a href="App.js"><img src={ForumsLogo} alt="forums-logo"/></a></li>
                     <li><a href="App.js"><img src={RosterLogo} alt="ranks-logo"/></a></li>

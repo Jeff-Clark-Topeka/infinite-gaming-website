@@ -8,6 +8,10 @@ html, body {
   color: white;
 }
 
+h2 {
+  text-decoration: underline;
+}
+
 .header-mobile {
   display: flex;
   align-items: center;
@@ -63,10 +67,6 @@ html, body {
   flex-direction: column;
   justify-content: center;
   padding: 0px 20px;
-}
-
-.home-container h2 {
-  text-decoration: underline;
 }
 
 .membership-link {
@@ -137,33 +137,70 @@ html, body {
 
 /*Information Page Styles*/
 
+.info-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  gap: 13px;
+}
 
+.info-container div {
+  background-color: #252525;
+  padding: 0px 20px;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
+}
+
+.info-container p {
+  font-weight: bold;
+}
+
+.info-container span {
+  font-weight: bold;
+  font-size: 20px;
+  color: yellow;
+}
 
 /*Chain of Command Styles*/
 
 #chain-of-command {
   text-decoration: underline;
-  /*font-style: italic;*/
   font-weight: bolder;
-  font-size: 50px;
-  color: cyan;
+  font-size: 26px;
+  color: white;
+  padding-bottom: 15px;
 }
 
-.com-wrap {
-  margin: 0px 30px;
+.command-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  gap: 13px;
+}
+
+.command-container div {
+  background-color: #252525;
+  border-top: 1px solid #252525;
+  border-bottom: 1px solid #252525;
 }
 
 .rank-header {
   text-decoration: underline;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 24px;
+}
+
+.roles {
+  padding: 0px 20px;
 }
 
 .roles h3{
+  font-size: 22px;
   color: darkred;
 }
 
 .roles span {
+  font-size: 16px;
   color: white;
 }
 
@@ -189,8 +226,9 @@ html, body {
 
 .alert {
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 26px;
   color: yellow;
+  padding: 0px 20px;
 }
 
 /*@media screen and (max-width: 480px) {

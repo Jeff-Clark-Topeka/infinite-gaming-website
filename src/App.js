@@ -3,6 +3,7 @@ import testImage from './test.jpg'
 import './App.css';
 import Navbar from './Navbar';
 import Home from './Home';
+import Info from './Info';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ChainOfCommand from './ChainOfCommand';
 import MenuLogo from './menu.jpg'
@@ -21,7 +22,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home/>}/>
-            <Route path="/code-of-conduct"/>
+            <Route path="/info" element={<Info/>}/>
             <Route path="/how-tos"/> 
             <Route path="/ranks" element={<ChainOfCommand/>}/>
           </Routes>
