@@ -15,8 +15,8 @@ function Navbar() {
                     <li><a href="/"><img src={HomeLogo} alt="home-logo"/></a></li>
                     <li><a href="/info"><img src={InfoLogo} alt="info-logo"/></a></li>
                     <li><a href="/ranks"><img src={RanksLogo} alt="ranks-logo"/></a></li>
-                    <li><a href="App.js"><img src={ForumsLogo} alt="forums-logo"/></a></li>
-                    <li><a href="App.js"><img src={RosterLogo} alt="ranks-logo"/></a></li>
+                    <li><a href="forums"><img src={ForumsLogo} alt="forums-logo"/></a></li>
+                    <li><a href="clan-roster"><img src={RosterLogo} alt="ranks-logo"/></a></li>
                     {/*<li><a href="App.js">Chat</a></li>*/}
                 </ul>
                 {/*<ul class="log-sign-links">
